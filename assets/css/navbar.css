@@ -1,0 +1,61 @@
+
+.dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(253, 146, 45);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgba(49, 49, 49, 0.95);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(211, 106, 45, 0.9);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgba(0, 0, 0, 0);}
+
+#navheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbarSupportedContent a {
+    transition: all 0.3s ease 0s;
+}
+
+#navbarSupportedContent a:hover {
+    color: rgba(128, 74, 24, 0.5);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.navbar-dark{
+    background: -webkit-linear-gradient(to right, rgba(253, 146, 45, 0.7), rgba(203, 96, 5, 0.7));
+    background: linear-gradient(to right, rgba(253, 146, 45, 0.7), rgba(203, 96, 5, 0.7));
+    outline: none;
+    border: none;
+}

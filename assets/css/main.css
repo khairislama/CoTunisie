@@ -1,0 +1,67 @@
+body{
+    padding-top: 56px;
+    color: #3c3939;
+    background-color: #f1f1f1;
+}
+#header {
+    background: url("../imgs/header.jpg") center center / cover no-repeat;
+}
+#header2{
+    background: url("../imgs/header2.jpg") center center / cover no-repeat;
+}
+#btn-round{
+    border-radius: 40px;
+    padding: 9px 25px;
+}
+h3.kiki, p.kiki, div.kiki{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.article {
+    background-color: rgba(235, 235, 235, 0.45);
+    border: rgba(219, 206, 230, 0.6) 2px solid;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px 10px 10px 25px;
+}
+.article-foot p{
+    color: rgba(35, 35, 35, 0.92);
+    padding: 0 20px;
+    margin: 0;
+}
+.btn-primary{
+    background: -webkit-linear-gradient(to right, rgb(253, 146, 45), rgb(203, 96, 05));
+    background: linear-gradient(to right, rgb(253, 146, 45), rgb(203, 96, 05));
+    outline: none;
+    border: none;
+}
+.profile-card {
+    width: 400px;
+    margin: 10% auto auto auto;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+}
+.image-container {
+    position: relative;
+    text-align: center;
+    border-radius: 80px;
+}
+.info {
+    color: #4b4fe2;
+    margin-right: 16px;
+}
+.main-container {
+    padding: 20px;
+}
+footer.page-footer{
+    color: #d3d3d3;
+    background-color: #3c3939;
+}
+.infoProfile {
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+    background-color: rgba(205, 205, 205, 0.8);
+}
+p.bottom{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
